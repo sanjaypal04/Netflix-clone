@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(49, 46, 46)
+}
+header
+{
+    height: 20px;
+    background-color: black;
+}
+
+#mainSection
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8)),url(Image/Background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+        
+}
+#logo
+{
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    color: red;
+    top: 10px;
+    left: 15px;
+}
+.lng
+{
+    color: white;
+    width: 97px;
+    padding-left: 86px;
+    display: flex;
+    justify-content: space-between;
+}
+#signin-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 82px;
+    height: 35px;
+    margin-top: -7px;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#login
+{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    
+}
+#login ul li
+{
+    list-style: none;
+    float: left;
+    padding: 7px;
+}
+.main-content
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -37%;
+    margin-left: 30%;
+}
+
+.main-content #l1
+{
+    color: white;
+    font-size: 3.325rem;
+    font-size: 3.125rem;
+    padding-bottom: 13px;
+    width: 607px;
+}
+
+.main-content #l2{
+    color: white;
+    font-size: 1.625rem;
+    padding-bottom: 25px;
+    width: 379px;
+    margin-left: 10%;
+}
+.main-content #l3
+{
+    color: white;
+    font-size: 1.2rem;
+    padding-bottom: 15px;
+    width: 38rem;
+    margin-left: -8%
+}
+#email
+{
+    width: 31rem;
+    height: 60px;
+    margin-left: -6rem;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 2px;
+}
+#email-btn
+{
+    color: white;
+    background-color: red;
+    width: 11rem;
+    height: 60px;
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+/**----------------Section TV Start-------------------------------**/
+#tv-section
+{   
+    margin-top: 9px;
+    position: absolute;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 450px;
+    /* background-color: aqua; */
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    flex-direction: row;
+}
+#tv-text-area
+{
+    
+    margin-top: 10%;
+    margin-left: 170px;
+}
+#tv-video
+{  
+    position: absolute;
+    top: 87px;
+    width: 402.4px;
+    right: 151px;
+}
+
+tv-text-area, h1
+{
+    color: white;
+    font-size: 3.325rem;
+    padding-bottom: 13px;
+    width: 467px;  
+}
+tv-text-area, h3
+{
+    color: white;
+    font-size: 1.625rem;
+    padding-bottom: 13px;
+    width: 467px;  
+}
+
+#tv-text-area, h1, h3
+{
+    color: white;
+}
+#tv-image-area
+{
+    margin-left: 87px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#tv-image
+{
+    position: absolute;
+    height: 26rem;
+}
+
+
+
+/**----------------Download Start-------------------------------**/
+
+#download-section
+{
+    margin-top: 9px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 450px;
+    /* background-color: aqua; */
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    flex-direction: row;
+}
+#phone-image
+{
+    height: 26rem;
+}
+#download-text
+{
+    margin: 1px 0px 0px 40px;
+
+}
+#download-T1
+{
+  width: 32rem;
+  margin-top: 10rem;
+}
+#download-T2
+{
+  width: 31rem;  
+}
+#download-icon
+{
+    height: 88px;
+    width: 55%;
+    box-shadow: 1px 1px 1px white;
+    border: 1px solid white;
+    position: relative;
+    top: -133px;
+    left: 123px;
+    border-radius: 8px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+#movie-icon
+{
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+    height: 68px;
+    margin-left: 8px;
+}
+#movie-name
+{
+    top: 28px;
+    color: white;
+    position: absolute;
+    left: 66px;
+}
+
+#downloading-text
+{
+    color: white;
+    margin-top: revert;
+    margin-left: 67px;
+    position: absolute;
+    background-color: darkgreen;
+}
+#downloading-animation
+{
+    height: 40px;
+    width: 50px;
+    margin-right: 16px;
+}
+
+
+/**----------------Shows Start-------------------------------**/
+
+#shows-section
+{    
+    margin-top: 9px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 485px;
+    /* background-color: aqua; */
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    flex-direction: row;
+}
+#shows-text
+{
+    margin-top: 10%;
+    margin-left: 170px;
+}
+#shows-image
+{
+    position: relative;
+    height: 26rem;
+    left: 5rem;
+    top: 2rem;
+}
+#tv-shows-image
+{
+    
+    position: relative;
+    height: 26rem;
+}
+#shows-video
+{
+    position: absolute;
+    top: 37px;
+    height: 190px;
+    width: 337.4px;
+    right: 111px;
+
+}
+
+/************************children Section************************/
+#children-section
+{    
+    margin-top: 9px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 485px;
+    /* background-color: aqua; */
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    flex-direction: row;
+}
+#children-text
+{
+    margin-top: 10%;
+    margin-left: 170px;
+}
+#children-div-image
+{
+    position: relative;
+    height: 26rem;
+    left: 5rem;
+    top: 2rem;
+}
+#children-image
+{
+    
+    position: relative;
+    height: 26rem;
+}
+
+/************************question Section************************/
+#question-section
+{    
+    margin-top: 9px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 827px;
+    /* background-color: aqua; */
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    flex-direction: row;
+}
+#question-t1
+{
+    position: relative;
+    color: white;
+    display: flex;
+    width: 563px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 61px;
+    margin-left: 395px;
+    font-size: 3.1rem;
+}
+
+#question-div
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 287px;
+    left: 361px;
+}
+#buttons
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: -25vh;
+    margin-left: -110px;
+    width: 274px;
+    list-style: none;
+    
+}
+.q-btn
+{
+    text-align: start;
+    border: 0;
+    font-size: 26px;
+    margin-bottom: 1px;
+    padding: 0.8em 2.2em 0.8em 1.2em;
+    margin-top: 7px;
+    position: relative;
+    width: 335%;
+    height: 65px;
+    background-color: #303030;
+    color: white;
+}
+#about-email
+{
+    position: absolute;
+    color: white;
+    bottom: 168px;
+    left: 447px;
+    font-size: 20.2px;
+}
+#email-bottm-div{
+    position: absolute;
+    bottom: 88px;
+    left: 495px;
+
+}
+
+/************************question Section************************/
+#footer-section
+{
+    margin-top: 9px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 290px;
+    /* background-color: aqua; */
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    flex-direction: row;
+}
+#contact
+{
+    position: absolute;
+    color: white;
+    color: #737373;
+    font-size: 18px;
+    top: 53px;
+    left: 269px;
+}
+.footer-link > li a{
+    color: #737373;
+    list-style: none;
+    text-decoration: none;
+}
+.footer-link > li{
+    padding-top: 23px;
+    font-size: 14px;
+    
+}
+#footer-div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 224px;
+}
+.footer-content
+{
+    padding: 48px;
+}
+#login-bottom{
+    position: absolute;
+    bottom: 5px;
+    left: 266px;
+    border: 1px solid #757575;
+}
+
+#login-bottom ul li
+{
+    list-style: none;
+    float: left;
+    padding: 7px;
+    color: #737373;
+}
